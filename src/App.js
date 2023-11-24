@@ -1,16 +1,15 @@
-import User from './component/User';
-import './App.css';
-import UserList from './component/UserList';
-import ShoppingList from './component/ShoppingList';
+import React from "react";
+import "./index.css";
+import"../src/style/style.css"
+import Product from "./Product/Product";
+import ProductList from "./Product/ProductList";
 
-function App() {
+export default function App() {
   return (
-  <div>
-    {/* <User/>
-    <UserList/> */}
-    <ShoppingList/>
-  </div>
+    <div className="App" id="top">
+    
+      <ProductList />
+     
+    </div>
   );
 }
-
-export default App;
