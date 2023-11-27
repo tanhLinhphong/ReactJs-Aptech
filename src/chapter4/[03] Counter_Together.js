@@ -1,7 +1,10 @@
 function MyButton(){
+    function handleClick(){
+        alert('You clicked me!');
+    }
     return(
-        <button>
-            click me
+        <button onClick={handleClick}>
+            Click me
         </button>
     );
 }
